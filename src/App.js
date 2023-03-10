@@ -1,12 +1,14 @@
-import store from './store/index'
-import { Provider } from 'react-redux';
-import Counter from "./componenets/Counter";
+import './App.css';
+import ProductItem from './Components/products/ProductItem';
+import ShoppingCardProvider from './context/ShoppingCard';
+import Navbar from './Components/header/Navbar';
 
 function App() {
   return (
-    <Provider store={store}>
-      <Counter/>
-    </Provider>
+    <ShoppingCardProvider>
+      <Navbar />
+      <ProductItem />
+    </ShoppingCardProvider>
   );
 }
 

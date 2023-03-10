@@ -1,0 +1,43 @@
+.backdrop {
+    z-index: 999;
+    position: fixed;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    inset-block-end: 0;
+    inset-inline-end: 0;
+    background-color: var(--Black);
+    opacity: .5
+}
+
+.overLay {
+    z-index: 9999;
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline-start: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--White);
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.top {
+    height: 100%;
+    width: 100vw;
+}
+
+.bottom {
+    
+}
+
+.left {
+
+}
