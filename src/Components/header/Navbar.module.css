@@ -1,0 +1,62 @@
+.navbar {
+    color: var(--White);
+    background-color: var(--Ghost);
+    padding-block: 10px;
+}
+
+.ParentNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarList {
+    padding-block: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarLink {
+    font-family: Bold;
+    color: var(--White);
+    transition: color .2s;
+    cursor: pointer;
+}
+
+.navbarLink:nth-child(2) {
+    padding-inline: 30px;
+}
+
+.navbarLink:hover {
+    color: var(--Black)
+}
+
+.parentImg {
+    max-width: 150px;
+    width: 100%;
+}
+
+.shipping {
+    max-width: 35px;
+    position: relative;
+    cursor: pointer;
+}
+
+.numCart {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: var(--Red);
+    position: absolute;
+    inset-block-start: -12px;
+    inset-inline-end: 0;
+}
+
+@media (max-width: 576px) {
+    .navbarList {
+        display: none
+    }
+}

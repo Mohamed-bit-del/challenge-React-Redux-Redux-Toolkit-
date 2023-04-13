@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "chair",
+        "price": 100,
+        "img": "/images/product.jpg",
+        "add_card": true,
+        "btn_modal": "Quick-View"
+    },
+    {
+        "id": 2,
+        "name": "table",
+        "price": 200,
+        "img": "/images/product.jpg",
+        "add_card": true,
+        "btn_modal": "Quick-View"
+    },
+    {
+        "id": 3,
+        "name": "dresser",
+        "price": 300,
+        "img": "/images/product.jpg",
+        "add_card": true,
+        "btn_modal": "Quick-View"
+    },
+    {
+        "id": 4,
+        "name": "couch",
+        "price": 400,
+        "img": "/images/product.jpg",
+        "add_card": true,
+        "btn_modal": "Quick-View"
+    },
+    {
+        "id": 5,
+        "name": "bed",
+        "price": 500,
+        "img": "/images/product.jpg",
+        "add_card": true,
+        "btn_modal": "Quick-View"
+    },
+    {
+        "id": 6,
+        "name": "library",
+        "price": 600,
+        "img": "/images/product.jpg",
+        "add_card": true,
+        "btn_modal": "Quick-View"
+    }
+]
