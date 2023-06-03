@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #FFF;
+  background-color: #46529d;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box
+}
+
+.container {
+  width: 60%;
+  margin: 10% auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.listItems {
+  background-color: #FFF;
+  color: #46529d;
+}
+
+.listItems p {
+  margin: 0;
+  text-align: center;
+  padding-block: 10px;
+}
+
+.listItems span {
+  display: inline-block;
+  text-align: center;
+  padding-block: 10px;
+  font-size: 20px;
+  border: .3px solid #CCC;
+}
+
+.listItems .title {
+  color: #FFF;
+  background-color: #2ebaee;
+}
+
+.listItems .name,
+form input[type=text] {
+  width: 60%;
+}
+
+.listItems .age,
+form input[type=number] {
+  width: 30%;
+}
+
+.listItems .action,
+form input[type=submit] {
+  width: 10%;
+}
+
+.listItems .icon {
+  color: #F00;
+  cursor: pointer;
+}
+
+form input {
+  padding: 10px;
+  background-color: #ebebeb;
+  border: transparent;
+  border: .3px solid #CCC;
+  outline: none;
+}
+
+form input[type=submit] {
+  color: #FFF;
+  background-color: #2ebaee;
+  border: .3px solid #2ebaee;
+  cursor: pointer;
+}
